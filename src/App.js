@@ -4,7 +4,7 @@ import Stock from './stocks'
 function App() {
   return (
     <div className="App">
-      <Stock></Stock>
+      <Stock className="stock-app"></Stock>
     </div>
   );
 }

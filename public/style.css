@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
-.container {
-    width: 100%;
-}
 .top-bar {
-  background-color: purple;
-  padding: 0.5em;
-  color: white;
+  background-color: #FABC3C;
+  padding: 0.1em;
   text-align: center;
-  font-size: 3em;
   font-family: 'Roboto', sans-serif;
+}
+.top-bar h1 {
+    font-weight: 700;
+    color: black;
 }
