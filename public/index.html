@@ -28,7 +28,14 @@
       <div class="top-bar">
         <h1>😁Stock Research Hub</h1>
         <div class="input-box">
-          <input type="text" onChange={getData} />
+          <input type="text" placeholder="GME" id="inputData" />
+          <button type="button" onclick="getInputValue();">🔍</button>
+          <script>
+            function getInputValue(){
+  let inputCode = document.getElementById("inputData").value;
+  alert(inputCode);
+}
+          </script>
         </div>
         
       </div>

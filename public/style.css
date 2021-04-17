@@ -19,6 +19,7 @@
 }
 
 input {
+    text-transform: uppercase;
     grid-column:3/4;
     height: 2em;
     width: 5em;
@@ -26,4 +27,12 @@ input {
     border-radius: 10px;
     text-align: center;
 }
+
+button {
+    height: 2em;
+    width: 2em;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+
 
