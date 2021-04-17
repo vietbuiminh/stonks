@@ -11,5 +11,11 @@ body {
 
 .App {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
+  grid-gap: 10px;
+}
+
+.stock-app {
+  grid-column: 3/4;
+  object-fit: cover;
 }
