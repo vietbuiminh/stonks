@@ -17,7 +17,7 @@ class Stock extends React.Component {
   fetchStock() {
     const pointerToThis = this;
     console.log(pointerToThis);
-    const API_KEY = 'A4SQV1UMXB5SCEKB';
+    const API_KEY = '';//'A4SQV1UMXB5SCEKB'; // comment out during the edit process 
     let StockSymbol = 'FB';
     let API_Call = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=${StockSymbol}&outputsize=compact&apikey=${API_KEY}`;
     let stockChartXValuesFunction = [];
