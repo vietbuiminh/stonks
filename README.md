@@ -1,3 +1,7 @@
+## Website
+
+https://www.stocksifyapp.tech/
+
 ## Inspiration
 
 Our Inspiration was the information Google Finance and solving the problem of finding the right company for an investor, or just learn more about the stock before buying
